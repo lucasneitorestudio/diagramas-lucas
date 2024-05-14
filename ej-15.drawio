@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net" modified="2024-05-14T01:24:14.131Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="01lf9Qx8d7r5s5c0H7p8" version="24.4.0" type="device">
+  <diagram name="EXERCISE-1" id="7WXvErT6jwQCl5LBhXy7">
+    <mxGraphModel dx="1100" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-hOMn0kYKFU-R9jvK8EN-38" value="EXERCISE 15" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="320" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jAzLcmatW34AS9ptDqRP-470" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jAzLcmatW34AS9ptDqRP-471" target="jAzLcmatW34AS9ptDqRP-473">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jAzLcmatW34AS9ptDqRP-471" value="INICIO" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="30" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jAzLcmatW34AS9ptDqRP-472" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jAzLcmatW34AS9ptDqRP-473" target="jAzLcmatW34AS9ptDqRP-475">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jAzLcmatW34AS9ptDqRP-473" value="INPUT&lt;div&gt;a,b,c&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jAzLcmatW34AS9ptDqRP-474" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jAzLcmatW34AS9ptDqRP-475" target="jAzLcmatW34AS9ptDqRP-479">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jAzLcmatW34AS9ptDqRP-475" value="DECLARAR&lt;div&gt;z&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jAzLcmatW34AS9ptDqRP-476" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jAzLcmatW34AS9ptDqRP-477" target="jAzLcmatW34AS9ptDqRP-481">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jAzLcmatW34AS9ptDqRP-477" value="z=a&lt;div&gt;a=c&lt;/div&gt;&lt;div&gt;c=b&lt;/div&gt;&lt;div&gt;b=z&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="410" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="jAzLcmatW34AS9ptDqRP-478" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jAzLcmatW34AS9ptDqRP-479" target="jAzLcmatW34AS9ptDqRP-477">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jAzLcmatW34AS9ptDqRP-479" value="OUTPUT&lt;div&gt;&quot;Los valores son: a = &quot;, a , &quot; b =&amp;nbsp; &quot;, b , &quot; y c = &quot;, c&amp;nbsp;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="215" y="330" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jAzLcmatW34AS9ptDqRP-480" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jAzLcmatW34AS9ptDqRP-481" target="jAzLcmatW34AS9ptDqRP-482">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jAzLcmatW34AS9ptDqRP-481" value="OUTPUT&lt;div&gt;&quot;Permutamos: a =&amp;gt; b, b =&amp;gt; c, c =&amp;gt; a&quot;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&quot;Los valores despues de la permutacion son: a = &quot; , a , &quot; b = &quot; , b , &quot; c = &quot; , c&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="117.5" y="510" width="505" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jAzLcmatW34AS9ptDqRP-482" value="FIN" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="610" width="80" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
